@@ -18,6 +18,8 @@
 		694C3456166AF1C50007B4CB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 694C3455166AF1C50007B4CB /* Default-568h@2x.png */; };
 		694C3459166AF1C50007B4CB /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694C3458166AF1C50007B4CB /* CalculatorViewController.m */; };
 		694C345C166AF1C50007B4CB /* CalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 694C345A166AF1C50007B4CB /* CalculatorViewController.xib */; };
+		694C3464166AF2390007B4CB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 694C3462166AF2390007B4CB /* .gitignore */; };
+		694C3465166AF2390007B4CB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 694C3463166AF2390007B4CB /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		694C3457166AF1C50007B4CB /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
 		694C3458166AF1C50007B4CB /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
 		694C345B166AF1C50007B4CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CalculatorViewController.xib; sourceTree = "<group>"; };
+		694C3462166AF2390007B4CB /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		694C3463166AF2390007B4CB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 		694C3445166AF1C50007B4CB /* CalculatorApp */ = {
 			isa = PBXGroup;
 			children = (
+				694C3462166AF2390007B4CB /* .gitignore */,
+				694C3463166AF2390007B4CB /* README.md */,
 				694C344E166AF1C50007B4CB /* CalculatorAppDelegate.h */,
 				694C344F166AF1C50007B4CB /* CalculatorAppDelegate.m */,
 				694C3457166AF1C50007B4CB /* CalculatorViewController.h */,
@@ -164,6 +170,8 @@
 				694C3454166AF1C50007B4CB /* Default@2x.png in Resources */,
 				694C3456166AF1C50007B4CB /* Default-568h@2x.png in Resources */,
 				694C345C166AF1C50007B4CB /* CalculatorViewController.xib in Resources */,
+				694C3464166AF2390007B4CB /* .gitignore in Resources */,
+				694C3465166AF2390007B4CB /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

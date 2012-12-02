@@ -87,8 +87,6 @@
 		694C3445166AF1C50007B4CB /* CalculatorApp */ = {
 			isa = PBXGroup;
 			children = (
-				694C3462166AF2390007B4CB /* .gitignore */,
-				694C3463166AF2390007B4CB /* README.md */,
 				694C344E166AF1C50007B4CB /* CalculatorAppDelegate.h */,
 				694C344F166AF1C50007B4CB /* CalculatorAppDelegate.m */,
 				694C3457166AF1C50007B4CB /* CalculatorViewController.h */,
@@ -102,6 +100,8 @@
 		694C3446166AF1C50007B4CB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				694C3462166AF2390007B4CB /* .gitignore */,
+				694C3463166AF2390007B4CB /* README.md */,
 				694C3447166AF1C50007B4CB /* CalculatorApp-Info.plist */,
 				694C3448166AF1C50007B4CB /* InfoPlist.strings */,
 				694C344B166AF1C50007B4CB /* main.m */,
@@ -301,6 +301,7 @@
 				694C3461166AF1C50007B4CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

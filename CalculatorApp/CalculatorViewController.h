@@ -10,4 +10,11 @@
 
 @interface CalculatorViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *calculatedNumber;
+
+- (IBAction)numberPressed:(id)sender;
+- (IBAction)additionPressed:(id)sender;
+- (IBAction)subtractionPressed:(id)sender;
+
+
 @end

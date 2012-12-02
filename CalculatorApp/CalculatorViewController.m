@@ -14,16 +14,34 @@
 
 @implementation CalculatorViewController
 
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)numberPressed:(UIButton*)sender
+{
+	NSString *digit = [sender currentTitle]; 
+	
+	self.calculatedNumber.text = [self.calculatedNumber.text stringByAppendingString:digit];	
+	
+}
+
+- (IBAction)additionPressed:(id)sender {
+}
+
+- (IBAction)subtractionPressed:(id)sender {
 }
 
 @end
